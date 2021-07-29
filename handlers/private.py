@@ -17,13 +17,13 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ😘", url="t.me/piroXpower")
+                        "Oᴡɴᴇʀ💔", url="t.me/Xd_Lif")
                   ],[
                     InlineKeyboardButton(
-                        "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/patricia_Support"
+                        "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/LOVExWORD"
                     ),
                     InlineKeyboardButton(
-                        "Cʜᴀɴɴᴇʟ", url="https://t.me/patricia_updates"
+                        "Cʜᴀɴɴᴇʟ", url="https://t.me/LOVExWORD"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -41,7 +41,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/patricia_updates")
+                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/LOVExWORD")
                 ]
             ]
         )
