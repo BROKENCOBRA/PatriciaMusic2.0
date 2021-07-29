@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **Processing...**")
+    lel = await message.reply("🔄 **Pʀᴏᴄᴇssɪɴɢ...**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**Patricia Music assistant joined this group for play music 🎵**")
+                        message.chat.id, "**Patricia Mᴜsɪᴄ Assɪsᴛᴀɴᴛ Jᴏɪɴᴇᴅ Tʜɪs Gʀᴏᴜᴘ Fᴏʀ Pʟᴀʏ Mᴜsɪᴄ 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -138,8 +138,8 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
-            )
+                f"❌ Vɪᴅᴇᴏs Lᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} Mɪɴᴜᴛᴇs Aʀᴇɴ'ᴛ Aʟʟᴏᴡᴇᴅ Tᴏp Pʟᴀʏ!"
+            ) 
 
         file_name = get_file_name(audio)
         title = file_name
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Channel 🔊",
-                        url="https://t.me/patricia_updates")
+                        text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋 💫",
+                        url="https://t.me/LOVExWORD")
                    
                 ]
             ]
@@ -201,7 +201,7 @@ async def play(_, message: Message):
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/86df5e0db1f70a3f5580f.png"
+            thumb_name = "https://https://telegra.ph/file/68ba3f69f145217b02664.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
