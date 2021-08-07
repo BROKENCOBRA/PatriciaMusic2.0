@@ -17,7 +17,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ💔", url="t.me/Xd_Lif")
+                        "Oᴡɴᴇʀ🦋", url="t.me/aish_jaan_0")
                   ],[
                     InlineKeyboardButton(
                         "Sᴜᴩᴩᴏʀᴛ👿", url="https://t.me/LOVExWORD"
